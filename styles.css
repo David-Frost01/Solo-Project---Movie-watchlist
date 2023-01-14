@@ -1,0 +1,141 @@
+/* General styles */
+body {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ababab;
+}
+
+h1, h2 {
+    margin: 0;
+    margin-top: 24px;
+    padding: 0;
+}
+
+h3, p {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+.container, .search-bar, main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* styling for header */
+header {
+    color: #fff;
+    background-color: #313130;
+    height: 25vh;
+    border-bottom: 1px solid black;
+}
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    margin-top: 16px;
+}
+
+button  {
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 320px;
+    margin-right: 8px;
+}
+
+/* Styling for main section */
+main {
+    margin-top: 12px;
+    height: 70vh;
+}
+
+.movie-card, .movie-title, .movie-genre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-card {
+    border: 1px solid black ;
+}
+
+.movie-poster {
+    width: 30%;
+}
+
+.movie-text{
+    width: 70%;
+    color: white;
+}
+
+.add-to-btn {
+    color: white;
+    background-color: #ababab;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+    padding-right: 20px;
+} 
+
+.pg-btns {
+    background-color: #fff;
+    justify-content: space-between;
+    display: absolute;
+    position: fixed;
+    bottom: 0%;
+    left: 35%;
+    right: 35%;
+    border-radius: 5px;
+    height: 6.5%;
+    text-align: center;
+}
+
+.pg-btn {
+    width: 40%;
+    background-color: #313130;
+    color: #fff;
+}
+
+#current-page {
+    margin: auto;
+    font-weight: 700;
+}
+
+#pg-ctrl {
+    display: none;
+}
